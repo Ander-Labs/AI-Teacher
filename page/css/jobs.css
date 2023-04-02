@@ -1,0 +1,74 @@
+
+
+section {
+    margin-bottom: 30px;
+}
+
+.About h2 {
+    color: #0072c6;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+
+.About p {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.container h3 {
+    color: #0a007c;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .title h2 {
+    width: 1000px;
+    color: #0072c6;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+.jobs {
+    width: 400px;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: -1px 10px 17px 0px rgba(0,0,0,0.78);
+    -webkit-box-shadow: -1px 10px 17px 0px rgba(0,0,0,0.78);
+    -moz-box-shadow: -1px 10px 17px 0px rgba(0,0,0,0.78);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.jobs:hover {
+    cursor: pointer;
+    box-shadow: -1px 10px 17px 0px rgba(0, 247, 255, 0.78);
+    -webkit-box-shadow: -1px 10px 17px 0px rgba(0, 247, 255, 0.78);
+    -moz-box-shadow: -1px 10px 17px 0px rgba(0, 247, 255, 0.78);
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+

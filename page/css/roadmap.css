@@ -1,0 +1,130 @@
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 10px;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    justify-content: flex-start;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    /* overflow: hidden; */
+}
+
+main h2 {
+    font-size: 1.75rem;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+main .title {
+    text-align: center;
+    width: 2000px;
+    font-size: 32px;
+}
+p {
+    margin: 10px;
+    padding: 10px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-around;
+}
+
+
+.card-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card-header i .bi{
+    margin-right: 10px;
+}
+
+.bi {
+        font-size: 50px;
+}
+.card-footer1 {
+    width: 350px;
+    background-color: #4c4c4c;
+    font-size: 0.8rem;
+    padding: 20px;
+    text-align: right;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.card_footer2 {
+    display: flex;
+    background-color: #adadad;
+    color: #000000;
+    font-size: 1rem;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.progress_bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--bs-progress-bar-color);
+    text-align: center;
+    white-space: nowrap;
+    /* background-color: var(--bs-progress-bar-bg); */
+    transition: var(--bs-progress-bar-transition);
+}
+
+.progress1 {
+    background-color: rgb(0, 202, 182);
+    color: #000000;
+}
+

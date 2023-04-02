@@ -1,0 +1,103 @@
+/* Estilos para el banner */
+#banner {
+    background-color: #00b0ff;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    }
+    
+    #banner h1 {
+    font-size: 3em;
+    margin: 0;
+    }
+    
+    #banner p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    }
+    
+    /* Estilos para los beneficios */
+    #beneficios {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px;
+    }
+    
+    #beneficios h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    }
+    
+    #beneficios ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    #beneficios li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    }
+    
+    /* Estilos para los patrocinadores */
+    #patrocinadores {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px;
+    }
+    
+    #patrocinadores h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    }
+    
+    #patrocinadores ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    #patrocinadores li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    }
+    
+    /* Estilos para los socios */
+    #socios {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 50px;
+    }
+    
+    #socios h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    }
+    
+    #socios ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    #socios li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    }
+    
+    /* Estilos para los botones */
+    .boton_unete {
+    background-color: #fff;
+    color: #00b0ff;
+    border: 2px solid #00b0ff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+    }
+    
+    .boton_unete:hover {
+    background-color: #00b0ff;
+    color: #fff;
+    }

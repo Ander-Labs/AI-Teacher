@@ -1,0 +1,138 @@
+
+.sale-container h2 {
+    text-align: center;
+    color: #0a007c;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 10px;
+}
+
+.sale-container p {
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.sale-container ul {
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.sale-container ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+
+.offers .container {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.offers h2 {
+    text-align: center;
+    color: #0a007c;
+    font-weight: bold;
+    font-size: 32px;
+    margin: 10px;
+}
+
+.container .offer-item {
+    margin: 10px;
+    padding: 10px;
+}
+
+.offer {
+    width: 300px;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: -1px 10px 17px 0px rgba(0,0,0,0.78);
+    -webkit-box-shadow: -1px 10px 17px 0px rgba(0,0,0,0.78);
+    -moz-box-shadow: -1px 10px 17px 0px rgba(0,0,0,0.78);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.offer h3, p {
+    text-align: center;
+}
+
+
+
+.offer:hover {
+    cursor: pointer;
+    box-shadow: -1px 10px 17px 0px rgba(102, 0, 255, 0.78);
+    -webkit-box-shadow: -1px 10px 17px 0px rgba(102, 0, 255, 0.78);
+    -moz-box-shadow: -1px 10px 17px 0px rgba(102, 0, 255, 0.78);
+    transition: background-color 0.3s ease;
+}
+
+#offer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* #form-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    width: 80%;
+    max-width: 640px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+} */
+
+/* #form-container {
+    position: static;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1;
+  }
+  
+  #form-container.show {
+    display: block;
+  }
+  
+  #form-container iframe {
+    width: 640px;
+    height: 1811px;
+  }
+  
+  #form-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   */
