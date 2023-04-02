@@ -8,7 +8,7 @@ function showMessage() {
 
 
 // Establecer la fecha de finalización del contador de tiempo
-var countDownDate = new Date("July 1, 2023 00:00:00").getTime();
+var countDownDate = new Date("August 1, 2023 00:00:00").getTime();
 
 // Actualizar el contador de tiempo cada segundo
 var x = setInterval(function() {
